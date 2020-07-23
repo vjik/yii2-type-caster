@@ -29,7 +29,10 @@
     "require": {
         "php": ">=7.2.0",
         "vjik/php-type-caster": "^0.1.0",
-        "yiisoft/yii2": "^2.0",
+        "yiisoft/yii2": "^2.0"
+    },
+    "require-dev": {
+        "yiisoft/yii2-coding-standards": "^2.0",
         "phpunit/phpunit": "^8.5"
     },
     "repositories": [
@@ -37,8 +40,5 @@
             "type": "composer",
             "url": "https://asset-packagist.org"
         }
-    ],
-    "require-dev": {
-        "yiisoft/yii2-coding-standards": "^2.0"
-    }
+    ]
 }
